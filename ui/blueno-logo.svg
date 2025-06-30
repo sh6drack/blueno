@@ -1,0 +1,56 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Retro baby blue gradient -->
+    <linearGradient id="retroBlueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6495ED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </linearGradient>
+    <!-- Black lamp gradient -->
+    <linearGradient id="blackLampGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#333333;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <!-- Retro shadow -->
+    <filter id="retroShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="3" dy="3" stdDeviation="2" flood-color="#4682B4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Bear body with retro styling -->
+  <ellipse cx="100" cy="140" rx="45" ry="35" fill="url(#retroBlueGradient)" filter="url(#retroShadow)" stroke="#4682B4" stroke-width="1" />
+  
+  <!-- Bear head -->
+  <circle cx="100" cy="90" r="40" fill="url(#retroBlueGradient)" filter="url(#retroShadow)" stroke="#4682B4" stroke-width="1" />
+  
+  <!-- Bear ears with retro styling -->
+  <circle cx="80" cy="65" r="12" fill="url(#retroBlueGradient)" stroke="#4682B4" stroke-width="1" />
+  <circle cx="120" cy="65" r="12" fill="url(#retroBlueGradient)" stroke="#4682B4" stroke-width="1" />
+  <circle cx="80" cy="65" r="8" fill="#4682B4" />
+  <circle cx="120" cy="65" r="8" fill="#4682B4" />
+  
+  <!-- Bear arms -->
+  <ellipse cx="65" cy="120" rx="15" ry="25" fill="url(#retroBlueGradient)" stroke="#4682B4" stroke-width="1" />
+  <ellipse cx="135" cy="120" rx="15" ry="25" fill="url(#retroBlueGradient)" stroke="#4682B4" stroke-width="1" />
+  
+  <!-- Bear legs -->
+  <ellipse cx="80" cy="170" rx="12" ry="20" fill="url(#retroBlueGradient)" stroke="#4682B4" stroke-width="1" />
+  <ellipse cx="120" cy="170" rx="12" ry="20" fill="url(#retroBlueGradient)" stroke="#4682B4" stroke-width="1" />
+  
+  <!-- Bear face with retro dots -->
+  <circle cx="90" cy="85" r="4" fill="#1a1a1a" />
+  <circle cx="110" cy="85" r="4" fill="#1a1a1a" />
+  <ellipse cx="100" cy="95" rx="5" ry="3" fill="#1a1a1a" />
+  <path d="M 94 102 Q 100 107 106 102" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round" />
+  
+  <!-- Black desk lamp (iconic feature) - more accurate to original -->
+  <rect x="95" y="35" width="10" height="70" fill="url(#blackLampGradient)" stroke="#000" stroke-width="0.5" />
+  <!-- Lamp shade/head -->
+  <ellipse cx="100" cy="30" rx="18" ry="12" fill="url(#blackLampGradient)" stroke="#000" stroke-width="1" />
+  <!-- Lamp base where it meets bear -->
+  <ellipse cx="100" cy="105" rx="10" ry="6" fill="url(#blackLampGradient)" stroke="#000" stroke-width="0.5" />
+  
+  <!-- Simple white light glow -->
+  <circle cx="100" cy="30" r="12" fill="white" opacity="0.4" />
+  <circle cx="100" cy="30" r="8" fill="white" opacity="0.6" />
+</svg>
